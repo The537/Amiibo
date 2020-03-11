@@ -5,11 +5,10 @@
 //  Created by Les Lariz on 2/21/20.
 //  Copyright © 2020 Les R Lariz. All rights reserved.
 //
+//  Project Under Source Control
+
 import SwiftUI
-
-
-struct ContentView:  View {
-	
+struct ContentView:  View {	
 	
 	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
