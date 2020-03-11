@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView:  View {
 	
 	
-	@ObservedObject var networkingManager = NetworkingManager()
+	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
 	
 	init(urlString: String?) {
