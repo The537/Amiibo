@@ -31,11 +31,13 @@ struct ContentView:  View {
 				Picker(selection: $networkingManager.selectedAmiibo, label:Text( "Amiibo Type")) {
 					ForEach(AmiiboType.allCases) { amiiboType in Text(amiiboType.name).tag(amiiboType)
 					}
-				}.onReceive([self.networkingManager.selectedAmiibo].publisher.first()) { (value) in print(value) }
-	
+				}.pickerStyle(SegmentedPickerStyle())
+			
 				Divider()
 				Text("Picker: = \(networkingManager.selectedAmiibo.name)")
-					.fontWeight(.heavy)
+					.fontWeight(.heavy).onAppear(perform: {
+						self.networkingManager.loadData()
+					})
 				Text("Number of Amiibo: = \(networkingManager.amiiboList.amiibo.count)")
 					.fontWeight(.heavy)
 				Divider()
@@ -84,7 +86,8 @@ struct ContentView:  View {
 					}
 				}
 			}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-		}.pickerStyle(SegmentedPickerStyle())
+				.navigationBarItems(leading: Button(action: {self.networkingManager.loadData()}) { Image(systemName: "icloud.and.arrow.down") })
+		}
 	}
 }
 

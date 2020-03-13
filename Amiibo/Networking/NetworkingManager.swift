@@ -28,7 +28,7 @@ extension AmiiboType {
 
 
 
-class NetworkingManager : ObservableObject   {
+class NetworkingManager: ObservableObject   {
 	
 	@Published var willChange = PassthroughSubject<NetworkingManager, Never>()
 	
@@ -38,7 +38,7 @@ class NetworkingManager : ObservableObject   {
 	
 	
 	
-	init() {
+	func loadData() {
 		
 		guard let url = URL(string: "https://www.amiiboapi.com/api/amiibo/?type="+"\(selectedAmiibo)") else {  return }
 		
