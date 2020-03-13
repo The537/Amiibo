@@ -23,7 +23,6 @@ struct ContentView:  View {
 		NavigationView() {
 			
 			VStack  {
-				
 				Divider()
 				Text("Choose Amiibo Type")
 					.fontWeight(.heavy)
@@ -34,14 +33,9 @@ struct ContentView:  View {
 				}.pickerStyle(SegmentedPickerStyle())
 			
 				Divider()
-				Text("Picker: = \(networkingManager.selectedAmiibo.name)")
-					.fontWeight(.heavy).onAppear(perform: {
-						self.networkingManager.loadData()
-					})
 				Text("Number of Amiibo: = \(networkingManager.amiiboList.amiibo.count)")
 					.fontWeight(.heavy)
 				Divider()
-				
 				VStack {
 					List(networkingManager.amiiboList.amiibo, id: \.tail ) { char in
 						
@@ -87,6 +81,9 @@ struct ContentView:  View {
 				}
 			}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 				.navigationBarItems(leading: Button(action: {self.networkingManager.loadData()}) { Image(systemName: "icloud.and.arrow.down") })
+			
+			
+		.onAppear( perform: networkingManager.loadData)
 		}
 	}
 }
