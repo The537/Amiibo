@@ -42,8 +42,6 @@ class NetworkingManager: ObservableObject   {
 		
 		guard let url = URL(string: "https://www.amiiboapi.com/api/amiibo/?type="+"\(selectedAmiibo)") else {  return }
 		
-		print("Selected: \(selectedAmiibo)")
-		
 		URLSession.shared.dataTask(with: url) { (data, _, _) in
 			guard let data = data else   { return }
 			

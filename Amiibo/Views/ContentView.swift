@@ -80,11 +80,8 @@ struct ContentView:  View {
 					}
 				}
 			}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-				.navigationBarItems(leading: Button(action: {self.networkingManager.loadData()}) { Image(systemName: "icloud.and.arrow.down") })
-			
-			
-		.onAppear( perform: networkingManager.loadData)
-		}
+				.navigationBarItems(leading: Button(action: {self.networkingManager.loadData()}) { Image(systemName: "icloud.and.arrow.down.fill") })
+		}.onAppear( perform: networkingManager.loadData)
 	}
 }
 
