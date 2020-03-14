@@ -64,6 +64,7 @@
 			children = (
 				42F9016C240090030032B205 /* ContentView.swift */,
 				42F76FD72405BA4A0052A4A2 /* URLimageView.swift */,
+				4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,7 +72,6 @@
 		42F76FD92405BEAC0052A4A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */,
 				420286B42409953A00A3763C /* Mario.png */,
 				4284ADD82406DFA3002B066D /* Amiibo.json */,
 			);
