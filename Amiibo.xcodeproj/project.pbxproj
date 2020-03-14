@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		420286B52409953A00A3763C /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 420286B42409953A00A3763C /* Mario.png */; };
-		425D9CD42415BEAB00769F58 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D9CD32415BEAB00769F58 /* Test.swift */; };
 		4284ADD92406DFA3002B066D /* Amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4284ADD82406DFA3002B066D /* Amiibo.json */; };
 		4284ADDC24073BA7002B066D /* AmiiboDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */; };
 		42F76FD82405BA4A0052A4A2 /* URLimageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F76FD72405BA4A0052A4A2 /* URLimageView.swift */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		420286B42409953A00A3763C /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mario.png; path = ../../../../../Downloads/Mario.png; sourceTree = "<group>"; };
-		425D9CD32415BEAB00769F58 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4284ADD82406DFA3002B066D /* Amiibo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Amiibo.json; sourceTree = "<group>"; };
 		4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetailView.swift; sourceTree = "<group>"; };
 		42F76FD72405BA4A0052A4A2 /* URLimageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLimageView.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				42F9016C240090030032B205 /* ContentView.swift */,
 				42F76FD72405BA4A0052A4A2 /* URLimageView.swift */,
-				425D9CD32415BEAB00769F58 /* Test.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,7 +203,6 @@
 			files = (
 				4284ADDC24073BA7002B066D /* AmiiboDetailView.swift in Sources */,
 				42F90169240090030032B205 /* AppDelegate.swift in Sources */,
-				425D9CD42415BEAB00769F58 /* Test.swift in Sources */,
 				42F9017F2400924D0032B205 /* AmiiboAPIList.swift in Sources */,
 				42F9017D240090360032B205 /* NetworkingManager.swift in Sources */,
 				42F9016B240090030032B205 /* SceneDelegate.swift in Sources */,
