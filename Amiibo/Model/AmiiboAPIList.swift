@@ -8,23 +8,22 @@
 
 import Foundation
 import Combine
-
+	struct AmiiboListEntry:   Codable  {
+	 
+		var amiiboSeries: String
+		var character: String
+		var gameSeries: String
+		var head: String
+		var image: String
+		var name: String
+		var release: Dictionary<String,String?>
+		var tail: String
+		var type: String
+	
+}
 	struct AmiiboAPIList: Codable   {
 		
-			var amiibo: [AmiiboListEntry]
+		var amiibo: [AmiiboListEntry]
 		
 	}
-	class AmiiboListEntry:   Codable  {
-		 
-			var amiiboSeries: String
-			var character: String
-			var gameSeries: String
-			var head: String
-			var image: String
-			var name: String
-			var release: Dictionary<String,String?>
-			var tail: String
-			var type: String
-		
-	}
-
+	
