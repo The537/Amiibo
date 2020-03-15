@@ -8,8 +8,11 @@
 //  Project Under Source Control
 
 import SwiftUI
+import CoreData
+
 struct ContentView:  View {	
-	
+	@Environment(\.managedObjectContext) var moc
+	@FetchRequest(entity: Amiibos.entity(), sortDescriptors: []) var amiiibos: FetchedResults<Amiibos>
 	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
 	
