@@ -11,8 +11,8 @@ import SwiftUI
 import CoreData
 
 struct ContentView:  View {	
-	@Environment(\.managedObjectContext) var moc
-	@FetchRequest(entity: Amiibos.entity(), sortDescriptors: []) var amiiibos: FetchedResults<Amiibos>
+//	@Environment(\.managedObjectContext) var moc
+//	@FetchRequest(entity: Amiibos.entity(), sortDescriptors: []) var amiiibos: FetchedResults<Amiibos>
 	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
 	
@@ -39,6 +39,7 @@ struct ContentView:  View {
 				Text("Number of Amiibo: = \(networkingManager.amiiboList.amiibo.count)")
 					.fontWeight(.heavy)
 				Divider()
+				
 				VStack {
 					List(networkingManager.amiiboList.amiibo, id: \.tail ) { char in
 						
@@ -77,6 +78,11 @@ struct ContentView:  View {
 									Text(char.type)
 										.font(.footnote)
 										.fontWeight(.heavy)
+//									Text(char.release.au)
+//									.font(.footnote)
+//									.fontWeight(.heavy)
+									
+									
 								}
 							}
 						}

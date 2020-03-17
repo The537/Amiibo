@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		420286B52409953A00A3763C /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 420286B42409953A00A3763C /* Mario.png */; };
 		421DB3BB241EC56F003E6D69 /* Amiibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 421DB3B9241EC56F003E6D69 /* Amiibo.xcdatamodeld */; };
+		42344BA024204C3D0015B1A2 /* ReleaseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */; };
 		4284ADD92406DFA3002B066D /* Amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4284ADD82406DFA3002B066D /* Amiibo.json */; };
 		4284ADDC24073BA7002B066D /* AmiiboDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */; };
 		42F76FD82405BA4A0052A4A2 /* URLimageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F76FD72405BA4A0052A4A2 /* URLimageView.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		420286B42409953A00A3763C /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mario.png; path = ../../../../../Downloads/Mario.png; sourceTree = "<group>"; };
 		421DB3BA241EC56F003E6D69 /* Amiibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amiibo.xcdatamodel; sourceTree = "<group>"; };
+		42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseSchedule.swift; sourceTree = "<group>"; };
 		4284ADD82406DFA3002B066D /* Amiibo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Amiibo.json; sourceTree = "<group>"; };
 		4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetailView.swift; sourceTree = "<group>"; };
 		42F76FD72405BA4A0052A4A2 /* URLimageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLimageView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				42F9016C240090030032B205 /* ContentView.swift */,
 				42F76FD72405BA4A0052A4A2 /* URLimageView.swift */,
 				4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */,
+				42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				42F76FD82405BA4A0052A4A2 /* URLimageView.swift in Sources */,
 				42F76FDE2405C4420052A4A2 /* URLImageModel.swift in Sources */,
 				421DB3BB241EC56F003E6D69 /* Amiibo.xcdatamodeld in Sources */,
+				42344BA024204C3D0015B1A2 /* ReleaseSchedule.swift in Sources */,
 				42F9016D240090030032B205 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

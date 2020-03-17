@@ -16,9 +16,20 @@ import Combine
 		var head: String
 		var image: String
 		var name: String
-		var release: Dictionary<String,String?>
+		var release: Release
 		var tail: String
 		var type: String
+		
+		struct  Release: Codable {
+			
+			var au: String?
+			var eu: String?
+			var jp: String?
+			var na: String?
+		
+			
+		}
+		
 	
 }
 	struct AmiiboAPIList: Codable   {
@@ -27,3 +38,22 @@ import Combine
 		
 	}
 	
+extension AmiiboListEntry {
+    
+    private var dateFormatter: DateFormatter {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter
+    }
+    
+}
+
+// MARK: extension Date
+extension Date {
+    
+    func toString(dateFormat format: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self)
+    }
+}
