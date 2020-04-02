@@ -94,31 +94,4 @@ struct AmiiboDetailView_Previews: PreviewProvider {
 		AmiiboDetailView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
 	}
 }
-//struct Subview: View {
-//	
-//	@ObservedObject var amiiboListEntry: ReleaseDateModel
-//	// @ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
-//	
-//	init(amiiboListEntry: ReleaseDateModel) {
-//		self.amiiboListEntry = amiiboListEntry
-//		
-//	}
-//	var body: some View {
-//		
-//		
-//		HStack {
-//			
-//			ReleaseSchedule(country: "au", release: self.amiiboListEntry.releaseAU)
-//			ReleaseSchedule(country: "eu", release: self.amiiboListEntry.releaseEU)
-//			ReleaseSchedule(country: "jp", release: self.amiiboListEntry.releaseJP)
-//			ReleaseSchedule(country: "na", release: self.amiiboListEntry.releaseNA)
-//		}.font(.headline)
-//		
-//	}
-//	
-//}
-//struct SubView_Previews: PreviewProvider {
-//	static var previews: some View {
-//		Subview(amiiboListEntry: ReleaseDateModel(amiiboListEntry: amiibo1))
-//	}
-//}
+
