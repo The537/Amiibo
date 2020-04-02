@@ -26,7 +26,7 @@ struct AmiiboDetailView: View {
 	var body: some View {
 		VStack {
 			
-			VStack  {
+			VStack(alignment: .center)  {
 				
 				Image(uiImage: urlImageModel.image ?? UrlImageView.defaultImage!)
 					.resizable()
