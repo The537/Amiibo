@@ -7,53 +7,36 @@
 //
 
 import Foundation
-import Combine
-	struct AmiiboListEntry:   Codable  {
-	 
-		var amiiboSeries: String
-		var character: String
-		var gameSeries: String
-		var head: String
-		var image: String
-		var name: String
-		var release: Release
-		var tail: String
-		var type: String
-		
-		struct  Release: Codable {
-			
-			var au: String?
-			var eu: String?
-			var jp: String?
-			var na: String?
-		
-			
-		}
-		
+import UIKit
+import SwiftUI
+
+struct  AmiiboAPIList:   Codable {
 	
-}
-	struct AmiiboAPIList: Codable   {
-		
-		var amiibo: [AmiiboListEntry]
-		
-	}
+	var amiibo: [AmiiboListEntry]
 	
-extension AmiiboListEntry {
-    
-    private var dateFormatter: DateFormatter {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
-        return dateFormatter
+	init(amiibo: [AmiiboListEntry]) {
+        self.amiibo = amiibo
     }
-    
+	
+
+}
+struct AmiiboListEntry:   Codable {
+	
+	let amiiboSeries: String
+	let character: String
+	let gameSeries: String
+	let head: String
+	let image: String
+	let name: String
+	let release: Release
+	let tail: String
+	let type: String
 }
 
-// MARK: extension Date
-extension Date {
-    
-    func toString(dateFormat format: String) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = format
-        return dateFormatter.string(from: self)
-    }
+struct  Release: Codable {
+	
+	let au: String?
+	let eu: String?
+	let jp: String?
+	let na: String?
 }

@@ -13,17 +13,21 @@ struct ReleaseSchedule: View {
     let release: Date?
     
     var releaseDate: String {
-        release?.toString(dateFormat: "MMM-dd, yyyy") ?? "N/A"
+        release?.toString(dateFormat: "MM-dd-yyyy") ?? "N/A"
     }
     
     var body: some View {
         VStack {
-            Image(country)
-                .resizable()
-                .scaledToFit()
-                .frame(height: 45)
+            
             
             Text(releaseDate)
+				.font(.system(size: 12))
+				.fontWeight(.heavy)
+			Divider().frame(width: 80,height: 0)
+			Image(country)
+			.resizable()
+			.scaledToFit()
+			.frame(width: 80,height: 45)
         }
     }
 }
@@ -34,7 +38,7 @@ struct ReleaseSchedule_Previews: PreviewProvider {
         Group {
             ReleaseSchedule(country: "jp", release: Date())
                 .previewLayout(.sizeThatFits)
-            ReleaseSchedule(country: "us", release: Date())
+            ReleaseSchedule(country: "na", release: Date())
                 .previewLayout(.sizeThatFits)
         }
         

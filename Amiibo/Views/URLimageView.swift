@@ -20,7 +20,7 @@ struct UrlImageView: View {
 			Image(uiImage: urlImageModel.image ?? UrlImageView.defaultImage!)
             .resizable()
             .scaledToFit()
-			.frame(width: 300, height: 300)
+			.frame(width: 90, height: 90)
 			.aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fit/*@END_MENU_TOKEN@*/)
     }
     
