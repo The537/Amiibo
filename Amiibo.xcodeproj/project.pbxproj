@@ -70,8 +70,8 @@
 		4284ADDA24073AF2002B066D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				42F9016C240090030032B205 /* ContentView.swift */,
 				4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */,
+				42F9016C240090030032B205 /* ContentView.swift */,
 				42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */,
 				42F76FD72405BA4A0052A4A2 /* URLimageView.swift */,
 			);
@@ -92,9 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				42F9017E2400924D0032B205 /* AmiiboAPIList.swift */,
-				42F76FDD2405C4420052A4A2 /* URLImageModel.swift */,
-				4201AEAA242130E200779A1F /* Test.swift */,
 				4201AEAE2421723600779A1F /* ReleaseDateModel.swift */,
+				4201AEAA242130E200779A1F /* Test.swift */,
+				42F76FDD2405C4420052A4A2 /* URLImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
