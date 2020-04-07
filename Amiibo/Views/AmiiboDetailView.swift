@@ -8,19 +8,15 @@
 
 import SwiftUI
 
-
 struct AmiiboDetailView: View {
-	
 	
 	@ObservedObject var networkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
 	@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
 	
-	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 		urlImageModel = URlImageModel(urlString: urlString)
 		  self.amiibos = amiibos
-		
 	}
 	
 	var body: some View {
@@ -32,9 +28,7 @@ struct AmiiboDetailView: View {
 					.resizable()
 					.scaledToFit()
 					.frame(width: 400, height: 400)
-				
 			}
-			
 						HStack {
 							VStack(alignment: .trailing) {
 								Text("Amiibo Series: =")
@@ -50,7 +44,6 @@ struct AmiiboDetailView: View {
 								Text("Type: =")
 									.font(.headline)
 									.fontWeight(.heavy)
-			
 							}
 			
 							VStack(alignment: .leading) {
@@ -66,7 +59,6 @@ struct AmiiboDetailView: View {
 								Text(amiibos.type)
 									.font(.headline)
 									.fontWeight(.heavy)
-			
 							}
 						}
 			Divider()
@@ -79,14 +71,7 @@ struct AmiiboDetailView: View {
 				ReleaseSchedule(country: "jp", release: self.amiibos.releaseJP)
 				ReleaseSchedule(country: "na", release: self.amiibos.releaseNA)
 			}.font(.headline)
-			
-//			HStack {
-//				Subview(amiiboListEntry: ReleaseDateModel(amiiboListEntry: amiibo1))
-//					.padding()
-//				//			}
-//			}.onAppear( perform: networkingManager.loadData)
-		}
-		.navigationBarColor(.systemRed)
+		}.navigationBarColor(.systemRed)
 	}
 }
 struct AmiiboDetailView_Previews: PreviewProvider {
