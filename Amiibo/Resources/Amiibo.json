@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 {
 	"amiibo": [
 		{
@@ -65,7 +64,7 @@ import Foundation
 			"gameSeries": "Super Mario",
 			"head": "00000000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-003d0102.png",
-			"name": "Mario - Silver Editon",
+			"name": "Mario - Silver Edition",
 			"release": {
 				"au": "2015-05-30",
 				"eu": null,
@@ -737,7 +736,7 @@ import Foundation
 			"gameSeries": "The Legend of Zelda",
 			"head": "01000000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03530902.png",
-			"name": "Link (Archer)",
+			"name": "Link - Archer",
 			"release": {
 				"au": "2017-03-03",
 				"eu": "2017-03-03",
@@ -753,7 +752,7 @@ import Foundation
 			"gameSeries": "The Legend of Zelda",
 			"head": "01000000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03540902.png",
-			"name": "Link (Rider)",
+			"name": "Link - Rider",
 			"release": {
 				"au": "2017-03-03",
 				"eu": "2017-03-03",
@@ -785,7 +784,7 @@ import Foundation
 			"gameSeries": "The Legend of Zelda",
 			"head": "01000000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03990902.png",
-			"name": "Link (Link's Awakening)",
+			"name": "Link - Link's Awakening",
 			"release": {
 				"au": "2019-09-20",
 				"eu": "2019-09-20",
@@ -1089,7 +1088,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01810001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810001-01d40502.png",
-			"name": "Isabelle",
+			"name": "Isabelle - Character Parfait",
 			"release": {
 				"au": null,
 				"eu": null,
@@ -1105,7 +1104,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01810100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810100-023f0502.png",
-			"name": "Isabelle",
+			"name": "Isabelle  - Winter",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -1121,7 +1120,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01810101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810101-00b40502.png",
-			"name": "Isabelle (Aut)",
+			"name": "Isabelle - Winter",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -1137,7 +1136,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01810201",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810201-011a0502.png",
-			"name": "Isabelle",
+			"name": "Isabelle - Kimono",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -1153,7 +1152,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01810301",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810301-01700502.png",
-			"name": "Isabelle",
+			"name": "Isabelle - Dress",
 			"release": {
 				"au": "2016-06-18",
 				"eu": "2016-06-17",
@@ -1201,7 +1200,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01820001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01820001-01d80502.png",
-			"name": "K. K. Slider",
+			"name": "K. K. Slider - Pikopuri",
 			"release": {
 				"au": null,
 				"eu": null,
@@ -1265,7 +1264,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01830101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01830101-010e0502.png",
-			"name": "Tom Nook",
+			"name": "Tom Nook - Jacket",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -1313,7 +1312,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01850201",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01850201-01170502.png",
-			"name": "Timmy",
+			"name": "Timmy - Full Apron",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -1329,7 +1328,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01850401",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01850401-01790502.png",
-			"name": "Timmy",
+			"name": "Timmy - Suit",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -1345,7 +1344,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01860101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01860101-00af0502.png",
-			"name": "Tommy",
+			"name": "Tommy - Uniform",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -1361,7 +1360,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01860301",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01860301-01750502.png",
-			"name": "Tommy",
+			"name": "Tommy - Suit",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -1537,7 +1536,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "018c0101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018c0101-01180502.png",
-			"name": "Digby",
+			"name": "Digby - Raincoat",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -1581,7 +1580,7 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Animal Crossing",
-			"character": "Mr. Resetti",
+			"character": "Resetti",
 			"gameSeries": "Animal Crossing",
 			"head": "018e0000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018e0000-02490502.png",
@@ -1597,7 +1596,7 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Animal Crossing",
-			"character": "Mr. Resetti",
+			"character": "Resetti",
 			"gameSeries": "Animal Crossing",
 			"head": "018e0001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018e0001-00490502.png",
@@ -1613,11 +1612,11 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Animal Crossing",
-			"character": "Mr. Resetti",
+			"character": "Resetti",
 			"gameSeries": "Animal Crossing",
 			"head": "018e0101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018e0101-01780502.png",
-			"name": "Resetti",
+			"name": "Resetti - Without Hat",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -1649,7 +1648,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "018f0101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018f0101-01190502.png",
-			"name": "Don Resetti",
+			"name": "Don Resetti - Without Hat",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -2129,7 +2128,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01a80101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01a80101-017e0502.png",
-			"name": "Redd",
+			"name": "Redd - Shirt",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -2269,11 +2268,11 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Animal Crossing",
-			"character": "Dr. Shrunk",
+			"character": "Shrunk",
 			"gameSeries": "Animal Crossing",
 			"head": "01b10001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01b10001-00b20502.png",
-			"name": "Dr. Shrunk",
+			"name": "Shrunk",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -2285,11 +2284,11 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Animal Crossing",
-			"character": "Dr. Shrunk",
+			"character": "Shrunk",
 			"gameSeries": "Animal Crossing",
 			"head": "01b10101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01b10101-017b0502.png",
-			"name": "Shrunk",
+			"name": "Shrunk - Loud Jacket",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -2401,7 +2400,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "01c10101",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01c10101-017a0502.png",
-			"name": "Lottie",
+			"name": "Lottie - Black Skirt And Bow",
 			"release": {
 				"au": "2016-06-18",
 				"eu": null,
@@ -3105,7 +3104,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "025f0001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_025f0001-01d70502.png",
-			"name": "Rosie",
+			"name": "Rosie - Amiibo Festival",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -3521,7 +3520,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "02820001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02820001-01d60502.png",
-			"name": "Stitches",
+			"name": "Stitches - Amiibo Festival",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -4209,7 +4208,7 @@ import Foundation
 			"gameSeries": "Animal Crossing",
 			"head": "02ea0001",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02ea0001-01d50502.png",
-			"name": "Goldie",
+			"name": "Goldie - Amiibo Festival",
 			"release": {
 				"au": "2015-11-21",
 				"eu": "2015-11-20",
@@ -8819,10 +8818,10 @@ import Foundation
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_05c30000-03800002.png",
 			"name": "Dark Samus",
 			"release": {
-				"au": "2020-02-17",
-				"eu": "2020-02-17",
-				"jp": "2020-02-17",
-				"na": "2020-02-17"
+				"au": "2020-01-17",
+				"eu": "2020-01-17",
+				"jp": "2020-01-17",
+				"na": "2020-01-17"
 			},
 			"tail": "03800002",
 			"type": "Figure"
@@ -8961,7 +8960,7 @@ import Foundation
 			"gameSeries": "Classic Nintendo",
 			"head": "07810000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_07810000-002e0002.png",
-			"name": "R.O.B (Famicom)",
+			"name": "R.O.B - Famicom",
 			"release": {
 				"au": "2016-03-19",
 				"eu": "2016-03-18",
@@ -8977,7 +8976,7 @@ import Foundation
 			"gameSeries": "Classic Nintendo",
 			"head": "07810000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_07810000-00330002.png",
-			"name": "R.O.B. (NES)",
+			"name": "R.O.B. - NES",
 			"release": {
 				"au": "2015-09-26",
 				"eu": "2015-09-25",
@@ -9073,7 +9072,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-025f0402.png",
-			"name": "Inkling Girl (Lime Green)",
+			"name": "Inkling Girl - Lime Green",
 			"release": {
 				"au": "2016-07-09",
 				"eu": "2016-07-08",
@@ -9089,7 +9088,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-03690402.png",
-			"name": "Inkling Girl (Neon Pink)",
+			"name": "Inkling Girl - Neon Pink",
 			"release": {
 				"au": "2017-07-21",
 				"eu": "2017-07-21",
@@ -9137,7 +9136,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000200",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000200-02600402.png",
-			"name": "Inkling Boy (Purple)",
+			"name": "Inkling Boy - Purple",
 			"release": {
 				"au": "2016-07-09",
 				"eu": "2016-07-08",
@@ -9153,7 +9152,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000200",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000200-036a0402.png",
-			"name": "Inkling Boy (Neon Green)",
+			"name": "Inkling Boy - Neon Green",
 			"release": {
 				"au": "2017-07-21",
 				"eu": "2017-07-21",
@@ -9185,7 +9184,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000300",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000300-02610402.png",
-			"name": "Inkling Squid (Orange)",
+			"name": "Inkling Squid - Orange",
 			"release": {
 				"au": "2016-07-09",
 				"eu": "2016-07-08",
@@ -9201,7 +9200,7 @@ import Foundation
 			"gameSeries": "Splatoon",
 			"head": "08000300",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000300-036b0402.png",
-			"name": "Inkling Squid (Neon Purple)",
+			"name": "Inkling Squid - Neon Purple",
 			"release": {
 				"au": "2017-07-21",
 				"eu": "2017-07-21",
@@ -11201,7 +11200,7 @@ import Foundation
 			"gameSeries": "Fire Emblem",
 			"head": "21050100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21050100-03630002.png",
-			"name": "Corrin (Player 2)",
+			"name": "Corrin - Player 2",
 			"release": {
 				"au": "2017-07-22",
 				"eu": "2017-07-21",
@@ -11393,7 +11392,7 @@ import Foundation
 			"gameSeries": "Bayonetta",
 			"head": "32400100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32400100-03640002.png",
-			"name": "Bayonetta (Player 2)",
+			"name": "Bayonetta - Player 2",
 			"release": {
 				"au": "2017-07-22",
 				"eu": "2017-07-21",
@@ -11457,7 +11456,7 @@ import Foundation
 			"gameSeries": "Megaman",
 			"head": "34800000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_34800000-02580002.png",
-			"name": "Mega Man (Gold Edition)",
+			"name": "Mega Man - Gold Edition",
 			"release": {
 				"au": null,
 				"eu": null,
@@ -11521,7 +11520,7 @@ import Foundation
 			"gameSeries": "Monster Hunter",
 			"head": "35000100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35000100-02e10f02.png",
-			"name": "One-Eyed Rathalos and Rider (Male)",
+			"name": "One-Eyed Rathalos and Rider - Male",
 			"release": {
 				"au": null,
 				"eu": null,
@@ -11537,7 +11536,7 @@ import Foundation
 			"gameSeries": "Monster Hunter",
 			"head": "35000200",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35000200-02e20f02.png",
-			"name": "One-Eyed Rathalos and Rider (Female)",
+			"name": "One-Eyed Rathalos and Rider - Female",
 			"release": {
 				"au": null,
 				"eu": null,
@@ -11633,7 +11632,7 @@ import Foundation
 			"gameSeries": "Shovel Knight",
 			"head": "35c00000",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35c00000-03920a02.png",
-			"name": "Shovel Knight (Gold Edition)",
+			"name": "Shovel Knight - Gold Edition",
 			"release": {
 				"au": null,
 				"eu": "2019-12-10",
@@ -11713,7 +11712,7 @@ import Foundation
 			"gameSeries": "Final Fantasy",
 			"head": "36000100",
 			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36000100-03620002.png",
-			"name": "Cloud (Player 2)",
+			"name": "Cloud - Player 2",
 			"release": {
 				"au": "2017-07-22",
 				"eu": "2017-07-21",
@@ -11721,6 +11720,22 @@ import Foundation
 				"na": "2017-07-21"
 			},
 			"tail": "03620002",
+			"type": "Figure"
+		},
+		{
+			"amiiboSeries": "Super Smash Bros.",
+			"character": "Hero",
+			"gameSeries": "Dragon Quest",
+			"head": "36400000",
+			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36400000-03a20002.png",
+			"name": "Hero",
+			"release": {
+				"au": "2020-09-25",
+				"eu": "2020-09-25",
+				"jp": "2020-09-25",
+				"na": "2020-10-05"
+			},
+			"tail": "03a20002",
 			"type": "Figure"
 		},
 		{
@@ -11949,6 +11964,22 @@ import Foundation
 		},
 		{
 			"amiiboSeries": "Super Smash Bros.",
+			"character": "Joker",
+			"gameSeries": "Persona",
+			"head": "3a000000",
+			"image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_3a000000-03a10002.png",
+			"name": "Joker",
+			"release": {
+				"au": "2020-09-25",
+				"eu": "2020-09-25",
+				"jp": "2020-09-25",
+				"na": "2020-10-02"
+			},
+			"tail": "03a10002",
+			"type": "Figure"
+		},
+		{
+			"amiiboSeries": "Super Smash Bros.",
 			"character": "King K. Rool",
 			"gameSeries": "Donkey Kong",
 			"head": "00c00000",
@@ -12021,4 +12052,4 @@ Copyright © 2020 ; Coded by Nevin Vu
 
 ×
 Updated
-Added Dark Samus And Richter.
+Added Dark Joker And Hero.

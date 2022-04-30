@@ -29,7 +29,7 @@ struct ContentView:  View {
 	
 	var body: some View {
 		
-		NavigationView() {
+		NavigationView {
 			
 			VStack  {
 				Divider()
@@ -49,8 +49,7 @@ struct ContentView:  View {
 				VStack {
 					
 					List(networkingManager.amiiboList.amiibo, id: \.tail ) { amiibos in
-						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
-							
+						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {							
 							HStack {
 								
 								UrlImageView(urlString: amiibos.image)
@@ -95,6 +94,7 @@ struct ContentView:  View {
 				}
 			}.navigationBarColor(.systemGreen)
 		}.onAppear( perform: networkingManager.loadData)
+			
 	}
 	struct ContentView_Previews: PreviewProvider {
 		static var previews: some View {
