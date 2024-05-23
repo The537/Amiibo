@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4201AEAB242130E200779A1F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201AEAA242130E200779A1F /* Test.swift */; };
 		4201AEAF2421723600779A1F /* ReleaseDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201AEAE2421723600779A1F /* ReleaseDateModel.swift */; };
-		420286B52409953A00A3763C /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 420286B42409953A00A3763C /* Mario.png */; };
 		42344BA024204C3D0015B1A2 /* ReleaseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */; };
 		4284ADD92406DFA3002B066D /* Amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4284ADD82406DFA3002B066D /* Amiibo.json */; };
 		4284ADDC24073BA7002B066D /* AmiiboDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		4201AEAA242130E200779A1F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4201AEAE2421723600779A1F /* ReleaseDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateModel.swift; sourceTree = "<group>"; };
-		420286B42409953A00A3763C /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mario.png; path = ../../../../../Downloads/Mario.png; sourceTree = "<group>"; };
 		42344B9F24204C3D0015B1A2 /* ReleaseSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseSchedule.swift; sourceTree = "<group>"; };
 		4284ADD82406DFA3002B066D /* Amiibo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Amiibo.json; sourceTree = "<group>"; };
 		4284ADDB24073BA7002B066D /* AmiiboDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetailView.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		42F76FD92405BEAC0052A4A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				420286B42409953A00A3763C /* Mario.png */,
 				4284ADD82406DFA3002B066D /* Amiibo.json */,
 				42DB593924367A780013A03E /* Amiibo App Images */,
 			);
@@ -166,8 +163,9 @@
 		42F9015D240090030032B205 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Les R Lariz";
 				TargetAttributes = {
 					42F90164240090030032B205 = {
@@ -203,7 +201,6 @@
 				42F90175240090060032B205 /* LaunchScreen.storyboard in Resources */,
 				42F90172240090060032B205 /* Preview Assets.xcassets in Resources */,
 				42F9016F240090060032B205 /* Assets.xcassets in Resources */,
-				420286B52409953A00A3763C /* Mario.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -279,6 +277,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -307,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -340,6 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
